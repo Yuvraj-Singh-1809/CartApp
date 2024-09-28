@@ -27,7 +27,7 @@ const Cart = () => {
               Total items : <span>{cart.length}</span>
             </p>
             <p className="font-semibold text-lg truncate text-richblack-400">
-              Total price : ₹<span>{amount}</span>
+              Total price : $<span>{amount}</span>
             </p>
             <button className="bg-gray-800 text-white font-semibold rounded-lg p-2 hover:bg-slate-200 hover:text-black mt-5">Checkout Now</button>
           </div>
