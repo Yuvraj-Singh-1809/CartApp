@@ -36,7 +36,7 @@ const Product = ({ product }) => {
       <div className="flex justify-between gap-5 mt-5 items-center w-full">
         <div>
           <p className="font-semibold text-lg truncate text-green-500">
-           ₹<span className="font-bold ">{product.price}</span>
+           $<span className="font-bold ">{product.price}</span>
           </p>
         </div>
 
